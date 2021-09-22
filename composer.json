@@ -1,0 +1,9 @@
+{
+  "name": "gatis/csv",
+  "require": {
+    "league/csv": "^9.7"
+  },
+  "autoload": {
+    "App\\": "App/"
+  }
+}
