@@ -17,6 +17,9 @@
         table, th, td {
             border: 1px solid black;
         }
+        td {
+            text-align: center;
+        }
     </style>
     <title>Covid Statistics</title>
 </head>
