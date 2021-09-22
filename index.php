@@ -38,8 +38,7 @@
         <?php endforeach; ?>
 
         <?php foreach($covidStatisticRecords->getStatement() as $record): ?>
-            <?php if($search->search($record['Valsts'], $_GET['search']) ||
-                $_GET['search'] === ''): ?>
+            <?php if($search->search($record['Valsts'], $_GET['search']) || $_GET['search'] === ''): ?>
 
             <tr>
                     <td><?= $record['Datums'] ?></td>

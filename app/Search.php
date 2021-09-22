@@ -4,7 +4,6 @@
 
     class Search
     {
-
         public function search(string $element, ?string $search): bool
         {
             return $element === $search;
@@ -14,5 +13,4 @@
         {
             if(!isset($_GET[$element])) $_GET[$element] = '';
         }
-
     }

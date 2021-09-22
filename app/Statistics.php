@@ -16,11 +16,6 @@
             $this->statistics->setDelimiter(';');
         }
 
-        public function getStatistics(): Reader
-        {
-            return $this->statistics;
-        }
-
         public function getHeader(): array
         {
             return $this->statistics->getHeader();
